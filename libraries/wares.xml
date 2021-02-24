@@ -1,59 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Last exported: 27.05.2020 14:52:02-->
-<wares>
-  <ware id="ship_arg_m_dropship_01_a" name="{141132,1}" description="{141132,7}" group="ships_argon" transport="ship" volume="1" tags="ship">
-    <price min="901027" average="1060031" max="1219037" />
-    <production time="31" amount="1" method="default" name="{20206,101}">
-      <primary>
-        <ware ware="energycells" amount="172" />
-        <ware ware="hullparts" amount="818" />
-      </primary>
-    </production>
-    <component ref="arg_dropship_macro" amount="1" />
-    <restriction licence="militaryship" />
-    <owner faction="argon" />
-    <owner faction="hatikvah" />
-    <owner faction="buccaneers" />
-  </ware>
-  <ware id="ship_par_m_dropship_01_a" name="{141132,2}" description="{141132,7}" group="ships_paranid" transport="ship" volume="1" tags="ship">
-    <price min="1026911" average="1208130" max="1389350" />
-    <production time="35" amount="1" method="default" name="{20206,101}">
-      <primary>
-        <ware ware="energycells" amount="196" />
-        <ware ware="hullparts" amount="932" />
-      </primary>
-    </production>
-    <component ref="ship_par_m_dropship_01_a_macro" amount="1" />
-    <restriction licence="militaryship" />
-    <owner faction="buccaneers" />
-    <owner faction="paranid" />
-    <owner faction="holyorder" />
-    <owner faction="trinity" />
-  </ware>
-  <ware id="ship_tel_m_dropship_01_a" name="{141132,3}" description="{141132,7}" group="ships_teladi" transport="ship" volume="1" tags="ship">
-    <price min="976331" average="1148626" max="1320920" />
-    <production time="34" amount="1" method="default" name="{20206,101}">
-      <primary>
-        <ware ware="energycells" amount="186" />
-        <ware ware="hullparts" amount="887" />
-      </primary>
-    </production>
-    <component ref="ship_tel_m_dropship_01_a_macro" amount="1" />
-    <restriction licence="militaryship" />
-    <owner faction="ministry" />
-    <owner faction="scaleplate" />
-  </ware>
-  <ware id="ship_spl_m_dropship_01_a" name="{141132,4}" description="{141132,7}" group="ships_split" transport="ship" volume="1" tags="ship">
-    <price min="2031325" average="2389794" max="2748263" />
-    <production time="45" amount="1" method="default" name="{20206,101}">
-      <primary>
-        <ware ware="energycells" amount="248" />
-        <ware ware="hullparts" amount="1854" />
-      </primary>
-    </production>
-    <component ref="ship_spl_m_dropship_01_a_macro" amount="1" />
-    <restriction licence="militaryship" />
-    <owner faction="court" />
-    <owner faction="split" />
-  </ware>
-</wares>
+<diff>
+  <add sel="/wares">
+    <ware id="ship_arg_m_dropship_01_a" name="{141132,1}" description="{141132,7}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="901027" average="1060031" max="1219037" />
+      <production time="31" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="172" />
+          <ware ware="hullparts" amount="818" />
+        </primary>
+      </production>
+      <component ref="arg_dropship_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="buccaneers" />
+    </ware>
+    <ware id="ship_par_m_dropship_01_a" name="{141132,2}" description="{141132,7}" group="ships_paranid" transport="ship" volume="1" tags="ship">
+      <price min="1026911" average="1208130" max="1389350" />
+      <production time="35" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="196" />
+          <ware ware="hullparts" amount="932" />
+        </primary>
+      </production>
+      <component ref="ship_par_m_dropship_01_a_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="buccaneers" />
+      <owner faction="paranid" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="ship_tel_m_dropship_01_a" name="{141132,3}" description="{141132,7}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="976331" average="1148626" max="1320920" />
+      <production time="34" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="186" />
+          <ware ware="hullparts" amount="887" />
+        </primary>
+      </production>
+      <component ref="ship_tel_m_dropship_01_a_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="ministry" />
+      <owner faction="scaleplate" />
+    </ware>
+    <ware id="ship_spl_m_dropship_01_a" name="{141132,4}" description="{141132,7}" group="ships_split" transport="ship" volume="1" tags="ship">
+      <price min="2031325" average="2389794" max="2748263" />
+      <production time="45" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="248" />
+          <ware ware="hullparts" amount="1854" />
+        </primary>
+      </production>
+      <component ref="ship_spl_m_dropship_01_a_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="court" />
+      <owner faction="split" />
+    </ware>
+  </add>
+</diff>

@@ -1,75 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<peopledefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../schemas/people.xsd">
+
+<diff>
+  <add sel="/peopledefinitions">
     <people id="argon_dropship_crew">
-        <fillpercent min="35" max="90"/>
-        <person role="service" weight="10">
-          <select faction="argon" tags="[service, regular]"/>
-        </person>
-        <person role="service" weight="40">
-          <select faction="argon" tags="[marine, rookie]"/>
-        </person>
-        <person role="marine" weight="30">
-          <select faction="argon" tags="[marine, regular]"/>
-        </person>
-        <person role="marine" weight="20">
-          <select faction="argon" tags="[marine, veteran]"/>
-        </person>
-        <person role="prisoner" weight="1">
-          <select faction="argon" tags="prisoner"/>
-        </person>
-      </people>
-      <people id="teladi_dropship_crew">
-        <fillpercent min="35" max="90"/>
-        <person role="service" weight="10">
-          <select faction="teladi" tags="[service, regular]"/>
-        </person>
-        <person role="service" weight="40">
-          <select faction="teladi" tags="[marine, rookie]"/>
-        </person>
-        <person role="marine" weight="30">
-          <select faction="teladi" tags="[marine, regular]"/>
-        </person>
-        <person role="marine" weight="20">
-          <select faction="teladi" tags="[marine, veteran]"/>
-        </person>
-        <person role="prisoner" weight="1">
-          <select faction="teladi" tags="prisoner"/>
-        </person>
-      </people>
-      <people id="paranid_dropship_crew">
-        <fillpercent min="35" max="90"/>
-        <person role="service" weight="10">
-          <select faction="paranid" tags="[service, regular]"/>
-        </person>
-        <person role="service" weight="40">
-          <select faction="paranid" tags="[marine, rookie]"/>
-        </person>
-        <person role="marine" weight="30">
-          <select faction="paranid" tags="[marine, regular]"/>
-        </person>
-        <person role="marine" weight="20">
-          <select faction="paranid" tags="[marine, veteran]"/>
-        </person>
-        <person role="prisoner" weight="1">
-          <select faction="paranid" tags="prisoner"/>
-        </person>
-      </people>
-      <people id="split_dropship_crew">
-        <fillpercent min="35" max="90"/>
-        <person role="service" weight="10">
-          <select faction="split" tags="[service, regular]"/>
-        </person>
-        <person role="service" weight="40">
-          <select faction="split" tags="[marine, rookie]"/>
-        </person>
-        <person role="marine" weight="30">
-          <select faction="split" tags="[marine, regular]"/>
-        </person>
-        <person role="marine" weight="19">
-          <select faction="split" tags="[marine, veteran]"/>
-        </person>
-        <person role="prisoner" weight="1">
-          <select faction="split" tags="prisoner"/>
-        </person>
-      </people>
-</peopledefinitions>
+      <fillpercent min="35" max="90" />
+      <person role="service" weight="10">
+        <select faction="argon" tags="[service, regular]" />
+      </person>
+      <person role="service" weight="40">
+        <select faction="argon" tags="[marine, rookie]" />
+      </person>
+      <person role="marine" weight="30">
+        <select faction="argon" tags="[marine, regular]" />
+      </person>
+      <person role="marine" weight="20">
+        <select faction="argon" tags="[marine, veteran]" />
+      </person>
+      <person role="prisoner" weight="1">
+        <select faction="argon" tags="prisoner" />
+      </person>
+    </people>
+    <people id="teladi_dropship_crew">
+      <fillpercent min="35" max="90" />
+      <person role="service" weight="10">
+        <select faction="teladi" tags="[service, regular]" />
+      </person>
+      <person role="service" weight="40">
+        <select faction="teladi" tags="[marine, rookie]" />
+      </person>
+      <person role="marine" weight="30">
+        <select faction="teladi" tags="[marine, regular]" />
+      </person>
+      <person role="marine" weight="20">
+        <select faction="teladi" tags="[marine, veteran]" />
+      </person>
+      <person role="prisoner" weight="1">
+        <select faction="teladi" tags="prisoner" />
+      </person>
+    </people>
+    <people id="paranid_dropship_crew">
+      <fillpercent min="35" max="90" />
+      <person role="service" weight="10">
+        <select faction="paranid" tags="[service, regular]" />
+      </person>
+      <person role="service" weight="40">
+        <select faction="paranid" tags="[marine, rookie]" />
+      </person>
+      <person role="marine" weight="30">
+        <select faction="paranid" tags="[marine, regular]" />
+      </person>
+      <person role="marine" weight="20">
+        <select faction="paranid" tags="[marine, veteran]" />
+      </person>
+      <person role="prisoner" weight="1">
+        <select faction="paranid" tags="prisoner" />
+      </person>
+    </people>
+    <people id="split_dropship_crew">
+      <fillpercent min="35" max="90" />
+      <person role="service" weight="10">
+        <select faction="split" tags="[service, regular]" />
+      </person>
+      <person role="service" weight="40">
+        <select faction="split" tags="[marine, rookie]" />
+      </person>
+      <person role="marine" weight="30">
+        <select faction="split" tags="[marine, regular]" />
+      </person>
+      <person role="marine" weight="19">
+        <select faction="split" tags="[marine, veteran]" />
+      </person>
+      <person role="prisoner" weight="1">
+        <select faction="split" tags="prisoner" />
+      </person>
+    </people>
+  </add>
+</diff>

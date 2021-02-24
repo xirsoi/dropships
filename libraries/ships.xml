@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schemas/libraries.xsd">
+<diff>
+  <add rel="/ships">
     <ship id="argon_dropship_m" group="arg_frigate_m">
-      <category tags="[military, medium, mission]" faction="[argon, hatikvah, buccaneers]" size="ship_m"/>
+      <category tags="[military, medium, mission]" faction="[argon, hatikvah, buccaneers]" size="ship_m" />
       <pilot>
-        <select faction="argon" tags="fighterpilot"/>
+        <select faction="argon" tags="fighterpilot" />
       </pilot>
-      <drop ref="ship_small_military"/>
-      <people ref="argon_dropship_crew"/>
-  </ship>
-  <ship id="teladi_dropship_m" group="tel_frigate_m">
-    <category tags="[military, medium, mission]" faction="[ministry, scaleplate]" size="ship_m"/>
-    <pilot>
-      <select faction="teladi" tags="fighterpilot"/>
-    </pilot>
-    <drop ref="ship_small_military"/>
-    <people ref="teladi_dropship_crew"/>
-  </ship>
-  <ship id="paranid_dropship_m" group="par_frigate_m">
-    <category tags="[military, medium, mission]" faction="[paranid, holyorder, trinity, buccaneers]" size="ship_m"/>
-    <pilot>
-      <select faction="paranid" tags="fighterpilot"/>
-    </pilot>
-    <drop ref="ship_small_military"/>
-    <people ref="paranid_dropship_crew"/>
-  </ship>
-  <ship id="split_dropship_m" group="spl_frigate_m">
-    <category tags="[military, medium, mission]" faction="[split, freesplit, fallensplit]" size="ship_m"/>
-    <pilot>
-      <select faction="split" tags="fighterpilot"/>
-    </pilot>
-    <drop ref="ship_small_military"/>
-    <people ref="split_dropship_crew"/>
-  </ship>
-</ships>
+      <drop ref="ship_small_military" />
+      <people ref="argon_dropship_crew" />
+    </ship>
+    <ship id="teladi_dropship_m" group="tel_frigate_m">
+      <category tags="[military, medium, mission]" faction="[ministry, scaleplate]" size="ship_m" />
+      <pilot>
+        <select faction="teladi" tags="fighterpilot" />
+      </pilot>
+      <drop ref="ship_small_military" />
+      <people ref="teladi_dropship_crew" />
+    </ship>
+    <ship id="paranid_dropship_m" group="par_frigate_m">
+      <category tags="[military, medium, mission]" faction="[paranid, holyorder, trinity, buccaneers]" size="ship_m" />
+      <pilot>
+        <select faction="paranid" tags="fighterpilot" />
+      </pilot>
+      <drop ref="ship_small_military" />
+      <people ref="paranid_dropship_crew" />
+    </ship>
+    <ship id="split_dropship_m" group="spl_frigate_m">
+      <category tags="[military, medium, mission]" faction="[split, freesplit, fallensplit]" size="ship_m" />
+      <pilot>
+        <select faction="split" tags="fighterpilot" />
+      </pilot>
+      <drop ref="ship_small_military" />
+      <people ref="split_dropship_crew" />
+    </ship>
+  </add>
+</diff>
