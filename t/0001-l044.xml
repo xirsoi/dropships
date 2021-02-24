@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language id="7">
+<page id="141132" title="Dropships" descr="Text for Dropship models" voice="no">
+    <t id="1">Cerberus Dropship</t>
+    <t id="2">Osprey Dropship</t>
+    <t id="3">Gorgon Dropship</t>
+    <t id="4">Cobra Dropship</t>
+    <t id="5">Terran Dropship</t>
+    <t id="6">Dropship</t>
+    <t id="7">A variant of the standard frigate modified to dramatically increase crew capacity to serve as a boarding vessel. It sacrifices some hull plating to improve it's speed and maneuverability. It also has reduced armaments in exchange for improved shield capacity.</t>
+    <t id="8">DS</t>
+</page>
+</language>

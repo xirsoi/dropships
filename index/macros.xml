@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text\xsl" ? -->
+<index>
+    <entry name="arg_dropship_macro" value="extensions\dropships\assets\units\size_m\macros\arg_dropship_macro"/>
+    <entry name="ship_par_m_dropship_01_a_macro" value="extensions\dropships\assets\units\size_m\macros\ship_par_m_dropship_01_a_macro"/>
+    <entry name="ship_tel_m_dropship_01_a_macro" value="extensions\dropships\assets\units\size_m\macros\ship_tel_m_dropship_01_a_macro"/>
+    <entry name="ship_spl_m_dropship_01_a_macro" value="extensions\dropships\assets\units\size_m\macros\ship_spl_m_dropship_01_a_macro"/>
+</index>
