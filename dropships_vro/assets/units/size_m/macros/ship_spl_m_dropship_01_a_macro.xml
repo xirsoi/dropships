@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.123) at 20.01.2020_12-34-05-->
+<macros>
+  <macro name="ship_spl_m_dropship_01_a_macro" class="ship_m">
+    <component ref="ship_spl_m_frigate_01" />
+    <properties>
+      <identification name="{141132,4}" basename="{20101,41401}" makerrace="split" description="{141132,7}" icon="ship_m_fight_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="8000" />
+      <storage missile="12" unit="2" />
+      <hull max="38000" />
+      <secrecy level="2" />
+      <purpose primary="fight" />
+      <people capacity="60" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_m_03" />
+      </sounds>
+      <physics mass="33.045">
+        <inertia pitch="9.8" yaw="9.8" roll="7.5" />
+        <drag forward="9.05" reverse="12" horizontal="7.1" vertical="7.1" pitch="11" yaw="11" roll="11" />
+      </physics>
+      <thruster tags="medium" />
+      <ship type="frigate" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
+      </connection>
+      <connection ref="con_dockarea_arg_s_ship_01">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="con_shipstorage_s_01">
+        <macro ref="shipstorage_gen_s_frigate_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="storage_spl_m_frigate_01_a_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_ishield_01">
+        <macro ref="ishield_tel_m_frigate_01_a_macro" connection="ParentConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

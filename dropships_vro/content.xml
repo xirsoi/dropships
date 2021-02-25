@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content name="Dropships - VRO" description="Add's new variants of the M frigates for all races that operate as dropships." author="Tumor" version="1.0" save="0">
+  <text language="44" name="Dropships" description="Add's new variants of the M frigates for all races that operate as dropships. They're not as well suited to combat, but they have increased crew capacities so they can serve as early boarding craft. A viable option for the budding pirate or privateer that doesn't require you dropping 15m credits on a freighter just so you can get enough marines to board a Pheonix." author="Tumor"></text>
+</content>
