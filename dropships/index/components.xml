@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/index">
+    <entry name="arg_dropship" value="extensions\dropships\assets\units\size_m\arg_dropship" />
+    <entry name="par_dropship" value="extensions\dropships\assets\units\size_m\par_dropship" />
+    <entry name="tel_dropship" value="extensions\dropships\assets\units\size_m\tel_dropship" />
+    <entry name="spl_dropship" value="extensions\dropships\assets\units\size_m\spl_dropship" />
+  </add>
+</diff>
